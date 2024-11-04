@@ -1,0 +1,122 @@
+.wrap {
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    padding: 0 20px;
+}
+
+section {
+    width: 100%;
+}
+
+.sec_pad {
+    max-width: 1400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.sec_title {
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 68px;
+    color: #3b3b3b;
+    text-align: center;
+    padding: 160px 0 120px 0;
+}
+
+
+/* button {
+    overflow: visible;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.sec_pad {
+    width: 90%;
+    max-width: 1400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.sec_title_wrap>h3 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.sec_title_wrap>p {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0 20px 0;
+} */
+
+.btn {
+    width: 150px;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #3b3b3b;
+    font-weight: 700;
+    transition-duration: 0.5s;
+}
+
+
+
+
+
+/* ---------------------------------------여기서부터 미디어쿼리------------------------------------------------------ */
+
+@media all and (max-width: 1660px) {
+
+    .sec_title {
+        font-size: 50px;
+        line-height: 62px;
+        padding: 140px 0 100px 0;
+    }
+
+}
+
+
+@media all and (max-width: 1320px) {
+
+    .sec_title {
+        font-size: 45px;
+        line-height: 58px;
+        padding: 120px 0 80px 0;
+    }
+
+}
+
+@media all and (max-width: 1024px) {
+
+    .sec_title {
+        font-size: 40px;
+        line-height: 54px;
+        padding: 100px 0 60px 0;
+    }
+
+}
+
+@media all and (max-width: 680px) {
+
+    .sec_title {
+        font-size: 35px;
+        line-height: 48px;
+        padding: 80px 0 40px 0;
+    }
+
+    .btn {
+        margin: 50px 0 100px 0;
+    }
+
+}
+
